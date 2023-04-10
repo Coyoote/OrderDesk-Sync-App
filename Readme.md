@@ -2,10 +2,10 @@
 This project allows you to keep track of new orders, their IDs and shipping addresses from Order Desk and updates the orders hourly
 
 ## Getting started
-First you need to create a test account here: https://app.orderdesk.me/account-setup
-After that you need to generate your Store ID and API key here: https://app.orderdesk.me/settings/api
-Add new custom orders to your store in 'New' folder
-Create a .env file in root directory with following variables: STORE_ID="your store id" API_KEY="your api key"
+* First you need to create a test account here: https://app.orderdesk.me/account-setup
+* Generate your Store ID and API key here: https://app.orderdesk.me/settings/api
+* Add new custom orders to your store in 'New' folder
+* Create a .env file in root directory with following variables: STORE_ID="your store id" API_KEY="your api key"
 
 ### Dependencies
 * Node v12.16.3 and higher
