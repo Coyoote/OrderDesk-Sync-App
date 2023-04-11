@@ -5,7 +5,6 @@ This project allows you to keep track of new orders, their IDs and shipping addr
 * First you need to create a test account here: https://app.orderdesk.me/account-setup
 * Generate your Store ID and API key here: https://app.orderdesk.me/settings/api
 * Add new custom orders to your store
-* Data is displayed in the console
 
 ### Dependencies
 * Node v12.16.3 and higher
@@ -18,3 +17,4 @@ This project allows you to keep track of new orders, their IDs and shipping addr
 * Run `npm install` in your terminal
 * Create a .env file in root directory with following variables: STORE_ID="your store id" API_KEY="your api key"
 * Run `npm start`
+* The data will be displayed in the console
