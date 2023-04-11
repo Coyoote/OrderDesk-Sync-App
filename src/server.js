@@ -10,7 +10,7 @@ const { STORE_ID, API_KEY } = process.env;
 
 // Set up a scheduled task to run every hour
 // If you want to test the fetch request without waiting for 1 hour, add another * to the string and change 1 to * to execute the code every second
-cron.schedule('* * * * * *', async() => {
+cron.schedule('* 1 * * *', async() => {
   try {
     const milisecondHour = 60 * 60 * 1000;
     const oneHourAgo = new Date(Date.now() - milisecondHour);
